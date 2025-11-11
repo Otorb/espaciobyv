@@ -14,7 +14,7 @@ import Contact from "@/components/main/Contacto";
 import Footer from "@/components/main/Footer";
 
 
-export default async function Home() {
+export default function Home() {
   useEffect(() => {
     AOS.init({
       duration: 800,
